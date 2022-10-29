@@ -32,8 +32,7 @@ void init_shell()
 	printf("\n\n\n\t BHAVYA SHELL");
 	printf("\n\n\tuse at own risk");
 	printf("\n\n\n\n*******");
-	char* username = getenv("user");
-	printf("\n\n\n user is: @%s", username);
+	printf("BHAVYA NARNOLI      2021316");
 	printf("\n");
 	sleep(1);
 	clear();
