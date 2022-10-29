@@ -4,7 +4,6 @@
 #include<string.h>
 
 void main(int argc, char *c[]){
-	printf(".");
 	FILE *file_p;
 	if(argc == 1){
 		printf("ERROR: :Enter file name\n");
