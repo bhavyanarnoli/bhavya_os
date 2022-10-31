@@ -31,9 +31,12 @@ exit
 	it will exit the shell
 
 
-___EXTERNAL COMMANDS___
+
+
+_EXTERNAL COMMANDS_
 
 1. _LS_
+
 ls
 	it lists all the files in the current directory.
 
@@ -44,7 +47,9 @@ ls -1
 	 list one file per line. 
 
 
+
 2. _RM_
+
 rm filename
 	this will delete the file with that name if it exists else gives an error.
 
@@ -55,15 +60,17 @@ rm -v filename
 	this will delete the file the give a missege if it is deleted or not.
 
 
+
 3. _MKDIR_
-mkdir filename
-	this will create a new directory and give an error if not possible.
 
-mkdir -v filename 
-	this will create a new file directory and give a messege on completion.
+mkdir <filename>
+	This will create a new directory and give an error if not possible.
 
-mkdir -m mode filename
-	this will create a file directory with the particular mode.
+mkdir -v <filename> 
+	This will create a new file directory and give a messege on completion.
+
+mkdir -m mode <filename>
+	This will create a file directory with the particular mode.
 
 
 4. _DATE_
@@ -85,6 +92,7 @@ cat filename
 
 cat -n filename 
 	number all output lines
+	
   1. first line
   2. second line 
   goes on for all
