@@ -15,9 +15,11 @@ cd
 
 echo hello bhavya
 	It will print the rest of the string as it is.
-	
+	>hello bhavya
 echo 
 	It will print a new line 
+	>
+	
 echo -n 
 	It will not end it with a new line. 
 
@@ -25,11 +27,12 @@ echo -n
 3. _PWD_
 pwd 
 	it will print the current firectory path
+	>bhavya/assignment1
 
 4. _EXIT_
 exit 
 	it will exit the shell
-
+	
 
 
 
@@ -39,25 +42,35 @@ _EXTERNAL COMMANDS_
 
 ls
 	it lists all the files in the current directory.
+	bhsvy rnrt ifitrfkmr irfjjf iric4r 4 ir4fj4rim4rkn inr
 
 ls -m 
 	fill width with a comma separated list of entries
-                          
+         bhsvy, rnrt, ifitrfkmr, irfjjf, iric4r, 4, ir4fj4rim4rkn, inr                 
 ls -1
 	 list one file per line. 
-
+	bhsvy
+	rnrt
+	ifitrfkmr
+	irfjjf
+	iric4r
+	4
+	ir4fj4rim4rkn
+	inr
 
 
 2. _RM_
 
 rm filename
 	this will delete the file with that name if it exists else gives an error.
+	>rm inr will delete the file if it exists otherwise it would print file doesn't exist
 
 rm -i filename
 	this will promt a question before deleting the file.
+	>if you press no or No it won't delete the file otherwise it would delete the file.
 
 rm -v filename
-	this will delete the file the give a missege if it is deleted or not.
+	>this will delete the file the give a missege if it is deleted or not.
 
 
 
@@ -93,6 +106,7 @@ date -R
 5. _CAT_
 cat filename
 	It will print the file on the shell window(prints the whole file as it is)
+	whatever the file content is printed as it is.
 
 cat -n filename 
 	number all output lines
