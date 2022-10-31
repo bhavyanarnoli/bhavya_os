@@ -12,12 +12,14 @@ cd
 	Not putting any argument will take us to the root folder. 
 
 2. _ECHO_
-echo hello
-	It will print the rest of the string as it is 
+
+echo hello bhavya
+	It will print the rest of the string as it is.
+	
 echo 
 	It will print a new line 
 echo -n 
-	It will not end it with a new line 
+	It will not end it with a new line. 
 
 
 3. _PWD_
