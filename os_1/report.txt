@@ -3,13 +3,13 @@ BHAVYA NARNOLI
 CSD
 
 
-___INTERNAL COMMANDS___
+INTERNAL COMMANDS
 
 1. _CD_
-cd dir_name or cd dir/dir/name or cd ..
-	You will me able to traverse through directories with this command. It is able to take multiple directories at once. 
+cd directory_name or cd dir/dir/name or cd ..
+	You will me able to traverse through directories with this command. It can make multiple directories at once. 
 cd 
-	Not putting any arguments will take us to the root folder. 
+	Not putting any argument will take us to the root folder. 
 
 2. _ECHO_
 echo hello
