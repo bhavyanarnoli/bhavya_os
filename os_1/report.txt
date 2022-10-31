@@ -42,7 +42,7 @@ ls
 
 ls -m 
 	fill width with a comma separated list of entries
-
+                          
 ls -1
 	 list one file per line. 
 
@@ -74,21 +74,25 @@ mkdir -m mode <filename>
 
 
 4. _DATE_
+
 date
 	Display the current time in the given FORMAT, or set the system date.
 
 date -I
 	output date/time in ISO 8601 format.
+	
 	Example:2022-09-14T02:34:56-0600
 
 date -R
-	output date/time in ISO 8601 format. 
+
+	output date/time in ISO 8601 format.
+	
 	Example:2022-09-14T02:34:56-0600
 
 
 5. _CAT_
 cat filename
-	it will print the file on the shell window(prints the whole file as it is)
+	It will print the file on the shell window(prints the whole file as it is)
 
 cat -n filename 
 	number all output lines
